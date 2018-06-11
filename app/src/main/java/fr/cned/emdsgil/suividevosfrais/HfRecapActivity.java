@@ -15,7 +15,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 /**
- * Activité d'affichage de la liste des frais Hors forfait
+ * Activite d'affichage de la liste des frais Hors forfait
  *
  * @author Kevin Delcourt
  */

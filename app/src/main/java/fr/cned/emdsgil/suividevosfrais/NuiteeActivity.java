@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import java.util.Locale;
 
 /**
- * Activité de saisie du nombre de nuitées
+ * Activite de saisie du nombre de nuitees
  *
  * @author Kevin Delcourt
  */
@@ -63,6 +63,8 @@ public class NuiteeActivity extends AppCompatActivity {
 
     /**
 	 * Valorisation des propriétés avec les informations affichées
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void valoriseProprietes() {
 		annee = ((DatePicker)findViewById(R.id.datNuitee)).getYear() ;

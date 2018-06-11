@@ -7,7 +7,7 @@ import retrofit.http.FormUrlEncoded;
 import retrofit.http.POST;
 
 /**
- * Interface utilisée pour créer la requête POST à envoyer au serveur
+ * Interface utilisee pour creer la requête POST à envoyer au serveur
  *
  * @author Belal
  */

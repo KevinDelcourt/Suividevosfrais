@@ -10,7 +10,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * Classe qui permet de sérialiser et désérialiser des objets
+ * Classe qui permet de séeialiser et deserialiser des objets
  *
  * @author Emds
  *

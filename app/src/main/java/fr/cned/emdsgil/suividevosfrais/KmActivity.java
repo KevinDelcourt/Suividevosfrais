@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import java.util.Locale;
 
 /**
- * Activité de saisie des kilomètres
+ * Activite de saisie des kilometres
  *
  * @author Kevin Delcourt
  */

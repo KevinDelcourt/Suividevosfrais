@@ -30,7 +30,7 @@ import retrofit.client.Response;
 
 
 /**
- * Activité de mise à jour de la base de données, après saisie des idnetifiants
+ * Activite de mise à jour de la base de donnees, avec saisie des idnetifiants
  *
  * @author Kevin Delcourt
  */

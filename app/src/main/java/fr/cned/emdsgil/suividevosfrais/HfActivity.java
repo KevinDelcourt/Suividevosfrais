@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 /**
- * Activité de saisie d'un nouveau frais hors forfait
+ * Activite de saisie d'un nouveau frais hors forfait
  *
  * @author Kevin Delcourt
  */

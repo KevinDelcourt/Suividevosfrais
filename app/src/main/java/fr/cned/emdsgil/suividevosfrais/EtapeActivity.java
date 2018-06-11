@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import java.util.Locale;
 
 /**
- * Activité de saisie du nombre d'étapes par le visiteur médical.
+ * Activite de saisie du nombre d'etapes par le visiteur.
  *
  * @author Kevin Delcourt
  */

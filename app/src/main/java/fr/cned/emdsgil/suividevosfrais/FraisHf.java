@@ -3,7 +3,7 @@ package fr.cned.emdsgil.suividevosfrais;
 import java.io.Serializable;
 
 /**
- * Classe métier contenant la description d'un frais hors forfait
+ * Classe metier contenant la description d'un frais hors forfait
  *
  * @author Kevin Delcourt
  */

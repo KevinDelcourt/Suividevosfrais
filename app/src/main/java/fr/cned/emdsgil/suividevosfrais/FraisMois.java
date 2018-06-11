@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * Classe métier contenant les informations des frais d'un mois
+ * Classe metier contenant les informations des frais d'un mois
  *
  * @author Kevin Delcourt
  */
