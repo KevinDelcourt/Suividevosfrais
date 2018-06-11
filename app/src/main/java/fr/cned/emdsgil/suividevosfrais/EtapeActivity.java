@@ -15,6 +15,11 @@ import android.widget.ImageView;
 
 import java.util.Locale;
 
+/**
+ * Activité de saisie du nombre d'étapes par le visiteur médical.
+ *
+ * @author Kevin Delcourt
+ */
 public class EtapeActivity extends AppCompatActivity {
 
 	// informations affichées dans l'activité
@@ -58,6 +63,8 @@ public class EtapeActivity extends AppCompatActivity {
 
     /**
 	 * Valorisation des propriétés avec les informations affichées
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void valoriseProprietes() {
 		annee = ((DatePicker)findViewById(R.id.datEtape)).getYear() ;
@@ -73,6 +80,8 @@ public class EtapeActivity extends AppCompatActivity {
 	
 	/**
 	 * Sur la selection de l'image : retour au menu principal
+	 *
+	 * @author Kevin Delcourt
 	 */
     private void imgReturn_clic() {
     	findViewById(R.id.imgEtapeReturn).setOnClickListener(new ImageView.OnClickListener() {
@@ -84,6 +93,8 @@ public class EtapeActivity extends AppCompatActivity {
 
     /**
      * Sur le clic du bouton valider : sérialisation
+	 *
+	 * @author Kevin Delcourt
      */
     private void cmdValider_clic() {
     	findViewById(R.id.cmdEtapeValider).setOnClickListener(new Button.OnClickListener() {
@@ -96,6 +107,8 @@ public class EtapeActivity extends AppCompatActivity {
     
     /**
      * Sur le clic du bouton plus : ajout de 1 dans la quantité
+	 *
+	 * @author Kevin Delcourt
      */
     private void cmdPlus_clic() {
     	findViewById(R.id.cmdEtapePlus).setOnClickListener(new Button.OnClickListener() {
@@ -108,6 +121,8 @@ public class EtapeActivity extends AppCompatActivity {
     
     /**
      * Sur le clic du bouton moins : enlève 1 dans la quantité si c'est possible
+	 *
+	 * @author Kevin Delcourt
      */
     private void cmdMoins_clic() {
     	findViewById(R.id.cmdEtapeMoins).setOnClickListener(new Button.OnClickListener() {
@@ -120,6 +135,8 @@ public class EtapeActivity extends AppCompatActivity {
     
     /**
      * Sur le changement de date : mise à jour de l'affichage de la qte
+	 *
+	 * @author Kevin Delcourt
      */
     private void dat_clic() {   	
     	final DatePicker uneDate = (DatePicker) findViewById(R.id.datEtape);
@@ -133,6 +150,8 @@ public class EtapeActivity extends AppCompatActivity {
 
 	/**
 	 * Enregistrement dans la zone de texte et dans la liste de la nouvelle qte, à la date choisie
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void enregNewQte() {
 		// enregistrement dans la zone de texte
@@ -148,6 +167,8 @@ public class EtapeActivity extends AppCompatActivity {
 
 	/**
 	 * Retour à l'activité principale (le menu)
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void retourActivityPrincipale() {
 		Intent intent = new Intent(EtapeActivity.this, MainActivity.class) ;

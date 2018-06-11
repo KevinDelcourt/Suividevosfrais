@@ -15,6 +15,12 @@ import android.widget.ImageView;
 
 import java.util.Locale;
 
+/**
+ * Activité de saisie des repas.
+ *
+ * @author Kevin Delcourt
+ *
+ */
 public class RepasActivity extends AppCompatActivity {
 
 	// informations affichées dans l'activité

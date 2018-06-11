@@ -1,13 +1,16 @@
 package fr.cned.emdsgil.suividevosfrais;
-/**
- * Created by Belal on 11/5/2015.
- */
+
 import retrofit.Callback;
 import retrofit.client.Response;
 import retrofit.http.Field;
 import retrofit.http.FormUrlEncoded;
 import retrofit.http.POST;
 
+/**
+ * Interface utilisée pour créer la requête POST à envoyer au serveur
+ *
+ * @author Belal
+ */
 public interface RegisterAPI {
     @FormUrlEncoded
     @POST("/includes/api.php?apicall=ok")

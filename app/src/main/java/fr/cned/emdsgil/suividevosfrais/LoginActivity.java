@@ -29,7 +29,11 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-
+/**
+ * Activité de mise à jour de la base de données, après saisie des idnetifiants
+ *
+ * @author Kevin Delcourt
+ */
 public class LoginActivity extends AppCompatActivity {
 
     public static final String ROOT_URL = "http://applifrais.kevin-delcourt.fr/";

@@ -12,6 +12,11 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+/**
+ * Activité de saisie d'un nouveau frais hors forfait
+ *
+ * @author Kevin Delcourt
+ */
 public class HfActivity extends AppCompatActivity {
 
 	@Override
@@ -46,6 +51,8 @@ public class HfActivity extends AppCompatActivity {
 
 	/**
 	 * Sur la selection de l'image : retour au menu principal
+	 *
+	 * @author Kevin Delcourt
 	 */
     private void imgReturn_clic() {
     	findViewById(R.id.imgHfReturn).setOnClickListener(new ImageView.OnClickListener() {
@@ -57,6 +64,8 @@ public class HfActivity extends AppCompatActivity {
 
     /**
      * Sur le clic du bouton ajouter : enregistrement dans la liste et sérialisation
+	 *
+	 * @author Kevin Delcourt
      */
     private void cmdAjouter_clic() {
     	findViewById(R.id.cmdHfAjouter).setOnClickListener(new Button.OnClickListener() {
@@ -70,6 +79,8 @@ public class HfActivity extends AppCompatActivity {
     
 	/**
 	 * Enregistrement dans la liste du nouveau frais hors forfait
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void enregListe() {
 		// récupération des informations saisies
@@ -89,6 +100,8 @@ public class HfActivity extends AppCompatActivity {
 
 	/**
 	 * Retour à l'activité principale (le menu)
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private void retourActivityPrincipale() {
 		Intent intent = new Intent(HfActivity.this, MainActivity.class) ;

@@ -22,6 +22,8 @@ abstract class Global {
 
     /**
      * Modification de l'affichage de la date (juste le mois et l'année, sans le jour)
+     *
+     * @author Kevin Delcourt
      */
     public static void changeAfficheDate(DatePicker datePicker, boolean afficheJours) {
         try {

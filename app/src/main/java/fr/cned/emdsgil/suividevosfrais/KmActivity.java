@@ -15,6 +15,11 @@ import android.widget.ImageView;
 
 import java.util.Locale;
 
+/**
+ * Activité de saisie des kilomètres
+ *
+ * @author Kevin Delcourt
+ */
 public class KmActivity extends AppCompatActivity {
 
 	// informations affichées dans l'activité

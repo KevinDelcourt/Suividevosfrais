@@ -13,6 +13,11 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.Locale;
 
+/**
+ * Permet d'afficher la liste des frais Hors forfaits
+ *
+ * @author Kevin Delcourt
+ */
 class FraisHfAdapter extends BaseAdapter {
 
 	private final ArrayList<FraisHf> lesFrais ; // liste des frais du mois
@@ -22,7 +27,9 @@ class FraisHfAdapter extends BaseAdapter {
 	 * Constructeur de l'adapter pour valoriser les propriétés
      * @param context Accès au contexte de l'application
      * @param lesFrais Liste des frais hors forfait
-	 * @param int key Clé du mois sélectionné (aaaamm)
+	 * @param integer key Clé du mois sélectionné (aaaamm)
+	 *
+	 * @author Kevin Delcourt
 	 *
 	 * */
 	public FraisHfAdapter(Context context, ArrayList<FraisHf> lesFrais,int key) {
@@ -33,6 +40,8 @@ class FraisHfAdapter extends BaseAdapter {
 	
 	/**
 	 * retourne le nombre d'éléments de la listview
+	 *
+	 * @author Kevin Delcourt
 	 */
 	@Override
 	public int getCount() {
@@ -41,6 +50,8 @@ class FraisHfAdapter extends BaseAdapter {
 
 	/**
 	 * retourne l'item de la listview à un index précis
+	 *
+	 * @author Kevin Delcourt
 	 */
 	@Override
 	public Object getItem(int index) {
@@ -49,6 +60,8 @@ class FraisHfAdapter extends BaseAdapter {
 
 	/**
 	 * retourne l'index de l'élément actuel
+	 *
+	 * @author Kevin Delcourt
 	 */
 	@Override
 	public long getItemId(int index) {
@@ -57,6 +70,8 @@ class FraisHfAdapter extends BaseAdapter {
 
 	/**
 	 * structure contenant les éléments d'une ligne
+	 *
+	 * @author Kevin Delcourt
 	 */
 	private class ViewHolder {
 		TextView txtListJour ;
@@ -67,6 +82,8 @@ class FraisHfAdapter extends BaseAdapter {
 	
 	/**
 	 * Affichage dans la liste
+	 *
+	 * @author Kevin Delcourt
 	 */
 	@Override
 	public View getView(int index, View convertView, ViewGroup parent) {
@@ -98,7 +115,7 @@ class FraisHfAdapter extends BaseAdapter {
 	/**
 	 * Action du bouton supprimer d'un item de la liste
 	 *
-	 *
+	 * @author Kevin Delcourt
 	 */
 	private class imageViewClickListener implements View.OnClickListener {
 		int position;

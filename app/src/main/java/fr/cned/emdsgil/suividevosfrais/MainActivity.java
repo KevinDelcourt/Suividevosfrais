@@ -11,6 +11,12 @@ import android.widget.ImageButton;
 
 import java.util.Hashtable;
 
+/**
+ * Menu principal
+ *
+ * @author Kevin Delcourt
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -15,6 +15,11 @@ import android.widget.ImageView;
 
 import java.util.Locale;
 
+/**
+ * Activité de saisie du nombre de nuitées
+ *
+ * @author Kevin Delcourt
+ */
 public class NuiteeActivity extends AppCompatActivity {
 
 	// informations affichées dans l'activité

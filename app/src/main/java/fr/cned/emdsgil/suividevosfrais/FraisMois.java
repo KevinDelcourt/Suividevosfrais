@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 /**
  * Classe métier contenant les informations des frais d'un mois
+ *
+ * @author Kevin Delcourt
  */
 class FraisMois implements Serializable {
 
@@ -35,6 +37,8 @@ class FraisMois implements Serializable {
      *
      * @param montant Montant en euros du frais hors forfait
      * @param motif Justification du frais hors forfait
+     *
+     * @author Kevin Delcourt
      */
     public void addFraisHf(Float montant, String motif, Integer jour) {
         lesFraisHf.add(new FraisHf(montant, motif, jour));
@@ -44,6 +48,8 @@ class FraisMois implements Serializable {
      * Suppression d'un frais hors forfait
      *
      * @param index Indice du frais hors forfait à supprimer
+     *
+     * @author Kevin Delcourt
      */
     public void supprFraisHf(Integer index) {
         lesFraisHf.remove(index);
